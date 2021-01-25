@@ -1,0 +1,80 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+
+header {
+  background-color: white;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bookist {
+color: teal;
+background: transparent;
+}
+
+.search-bar {
+  background-color: white;
+  height: 5vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search, .clear {
+  height: 2.5vh;
+  width: 10vw;
+  margin: 15px;
+}
+
+.input {
+  height: 2.5vh;
+  width: 15vw;
+}
+
+section {
+  display: flex;
+}
+
+.book-box {
+  background-color: white;
+  width: 70vw;
+  height: 85.6vh;
+  
+}
+
+.shelf-box {
+  background-color: white;
+  height: 85vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  border-left: black;
+  border-style: solid;
+  border-width: 0.2vw;
+ 
+}
+
+.your-shelf {
+  font-weight:bolder;
+  font-size: large;
+  margin-left: 150px;
+}
+
+.clear-shelf {
+  width: 7vw;
+  height: 2.5vh;
+margin-left: 150px;
+}
+
+.title1, .title2, .title3 {
+margin-left: 150px;
+}
+
+
+
