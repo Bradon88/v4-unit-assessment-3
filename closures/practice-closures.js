@@ -8,12 +8,15 @@
     myFunc should return getSecretString
   */
   
-  //CODE HERE
+  myFunc = () => {
+    const myStr = 'super secret string'
+    getSecretString = () => {myStr}
+  }
 
   
   //Now create a variable called secretString. Its value should be the invocation of myFunc.
 
-  //CODE HERE
+  myFunc(secretString)
   
   
   ////////////PROBLEM 2////////////
@@ -28,27 +31,36 @@
     The lightSwitch function should return flipTheSwitch.
   */
   
-  //CODE HERE
+  lightSwitch = () => {
+    isTheLightOn = () => {false}
+    flipTheSwitch = () => {reverse(isTheLightOn), ''}
+    if(isTheLightOn = true){
+      'The light is on'
+    } else{
+      'The light is off'
+    }
+  }
 
   
   //Create a variable called kitchenSwitch whose value is the invocation of lightSwitch.
   
-  //CODE HERE
+  const kitchenSwitch = lightSwitch()
 
   
   //Invoke kitchenSwitch.
 
-  //CODE HERE
+  kitchenSwitch()
   
   
   //Create a variable called bathroomSwitch whose value is the invocation of lightSwitch. 
 
-  //CODE HERE
+  const bathroomSwitch = lightSwitch()
   
   
   //Invoke bathroomSwitch twice.
   
-  //CODE HERE
+  bathroomSwitch()
+  bathroomSwitch()
 
   
   
@@ -63,7 +75,18 @@
       - 'prunePlant' should subtract 1 from the height and return the new height
   */
 
-  //CODE HERE
+  // plantTracker = () => {
+  //   let plant = fern
+  //   let height = 12
+    
+  // }
+
+  // return{
+  //   readInfo = () => {`This is a ${plant} that is ${height} inches tall.`}
+  //   waterPlant = () => {height = height + 1}
+  //   prunePlant = () => {height = height - 1}
+  
+  // }
 
 
   ////////////PROBLEM 4////////////
@@ -78,19 +101,26 @@
         - hint: try to find the index of the string first
   */
 
-  //CODE HERE
+    inventory = () => {
+      const products = []
+    }
 
+    // return{
+    //   readProducts = () => {products}
+    //   addToProducts = (str) => {products.push(str)}
+    //   deleteFromProducts = (str) => {products.delete(str)}
+    // }
 
   /*
     Create a variable called 'shoes' whose value is the invocation of inventory.
   */
 
-  //CODE HERE
+  const shoes = inventory()
 
 
   /*
     Add an item to your shoes array using the addToProducts function
   */
 
-  //CODE HERE
+  shoes.push(item)
 
